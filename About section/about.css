@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 2.0;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+.container {
+    max-width: 1200px; /* Increased max-width for a wider layout */
+    margin: 0 auto;
+    padding: 20px;
+}
+.content-wrapper {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+.reader-profile, .testimonials {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.reader-profile {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.reader-image {
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.reader-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.reader-description {
+    flex-grow: 1;
+}
+.testimonials {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.testimonial {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.testimonial p {
+    font-style: italic;
+    margin-bottom: 10px;
+}
+.testimonial .author {
+    font-weight: bold;
+    text-align: right;
+}
