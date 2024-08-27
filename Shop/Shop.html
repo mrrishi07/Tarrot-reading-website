@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crystal Shop</title>
+    
+    <link rel="stylesheet" href="shop.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Edu+VIC+WA+NT+Beginner:wght@400..700&display=swap" rel="stylesheet">
+    
+    <style>
+        body, header{
+            background-image: url("https://media.istockphoto.com/id/1253754269/photo/chakra-crystals-and-amethyst-geode.jpg?s=612x612&w=0&k=20&c=Y0gwe5M4JRFCEv0tJW_N6O8Nd8ud22aag9XcKqkZLFE=");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+    </style>
+</head>
+<body>
+    <nav class = "navbar">
+        <div class="icons">
+            <a href="#wishlist" title="Wishlist">&#x2665;</a>
+            <a href="#liked-items" title="Liked Items">&#9733;</a> 
+            <a href="#cart" title="Cart">&#x1F6D2;</a>
+        </div>
+        <div class = "options">
+            <div class="search-filter">
+                <input type="text" placeholder="Search by crystal type...">
+                <select>
+                    <option value="">Filter by Intention</option>
+                    <option value="healing">Healing</option>
+                    <option value="protection">Protection</option>
+                </select>
+                <input type="text" placeholder="Filter by price range...">
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="header">
+            <h1>Crystal Shop</h1>
+            <h3>Discover a curated selection of high-quality meditating crystals designed to enhance your mindfulness and spiritual practices.</h3>
+        </div>
+
+        <div class="product-catalogue">
+            <!-- Repeat this block for each product -->
+            <div class="product-box">
+                <img src="https://media.istockphoto.com/id/510660391/photo/abstract-blue-crystal-refractions.jpg?s=612x612&w=0&k=20&c=oJjP7E6_Yfa6BpY1qUtSGyWO0R8tvoKyoDOH1ceNIVo=" alt="Crystal Name">
+                <h3>Abstract Blue</h3>
+                <p>Known for its calming and soothing energy, it’s often used to enhance meditation and spiritual awareness.</p>
+                <div class="price">Rs1780.99</div>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-box">
+                <img src="https://media.istockphoto.com/id/1530903885/photo/closeup-shot-of-details-on-a-beautiful-natural-lepidolite-crystal-stone.jpg?s=612x612&w=0&k=20&c=cRLelDiRor7uMs9RG_WsKbrP5hR5_6YqZlhtpqgeNYg=" alt="Crystal Name">
+                <h3>Lepidolite</h3>
+                <p> Contains lithium, which helps reduce stress and encourages emotional balance and tranquility.</p>
+                <div class="price">Rs3140.99</div>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-box">
+                <img src="https://media.istockphoto.com/id/616001440/photo/citrine-geode-geological-crystals.jpg?s=2048x2048&w=is&k=20&c=qpQ1w6FDQkIkeJL4kDyH7zaKucvJ96zYxRuRfe_7ulo=" alt="Crystal Name">
+                <h3>Citrine</h3>
+                <p>nown for its uplifting energy and ability to bring joy and positivity, aiding in a more focused meditation.</p>
+                <div class="price">Rs1039.99</div>
+                <button>Add to Cart</button>
+            </div>
+            <!-- Add more products as needed -->
+        </div>
+
+        <div class="reviews">
+            <h2>Customer Reviews</h2>
+            <ul>
+                <li>""The Amethyst crystal I purchased has truly transformed my meditation practice. Its calming energy helps me achieve a deeper state of relaxation and focus. I feel more centered and peaceful after each session. Highly recommend!"
+                    — Sophia M.</li>
+                <li>"The Lepidolite crystal has been amazing for managing my stress and anxiety. Its soothing energy has created a more peaceful meditation experience, and I’ve noticed a significant improvement in my emotional well-being."
+                    — Emily R.
+                    
+                    </li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
